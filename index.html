@@ -20,6 +20,13 @@
 
     </main>
     <script src="js/dom.js"></script>
-    <script>console.log('adding js inside the Html file')</script>
+    <script>console.log('adding js inside the Html file')
+        let liCollection = document.getElementsByTagName('li')
+        for(let li of liCollection)
+    {
+        console.log(li.innerText)
+        
+    }
+    </script>
 </body>
 </html>
