@@ -1,2 +1,8 @@
 #fruit-title{
     color: rgb(86, 4, 97);}
+    #places-title{
+        color: rgba(182, 6, 6, 0.89);
+    }
+    .important-places{
+        color: blueviolet;
+    }

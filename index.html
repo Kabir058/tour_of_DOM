@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <style>
     
-}</style>
+</style>
 </head>
 <body>
     <header>
@@ -32,11 +32,11 @@
         </ul>
         </section>
         <section>
-            <h1>Places I like to Visit</h1>
+            <h1 id="places-title">Places I like to Visit</h1>
             <ul>
-                <li>Sundorban</li>
-                <li>bandarban</li>
-                <li>Shalbon</li>
+                <li class="important-places">Sundorban</li>
+                <li class="important-places">bandarban</li>
+                <li class="important-places">Shalbon</li>
                 <li>Katabon</li>
             </ul>
         </section>
@@ -47,9 +47,18 @@
         let liCollection = document.getElementsByTagName('li')
         for(let li of liCollection)
     {
-        console.log(li.innerText)
+        //console.log(li.innerText)
         
     }
+
+    const places= document.getElementsByClassName('important-class')
+    for(let place of places)
+    {
+    console.log(place.innerText)
+    }
+
+    const fruitsTitle= document.getElementById('fruit-title')
+    fruitsTitle.innerText= 'Title changes by JS'
     </script>
 </body>
 </html>
